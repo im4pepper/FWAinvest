@@ -265,6 +265,14 @@
 	  			background-image: url('../images/bank-green.png');
 			}
 
+		.community-icon {
+			width: 15em;
+			padding: 2em;
+			display: inline-block;
+			border: none;
+			margin: 0 auto 0 auto;
+		}
+
 /* Icon */
 
 	.icon {
@@ -528,7 +536,19 @@
 			background-size: cover;
 		}
 
+		.wrapper.style1-firm {
+			padding: 0em;
+			background: #222222 url(../images/bannerX.jpg) no-repeat;
+			background-size: cover;
+		}
+
 		.wrapper.style1-PS {
+			padding: 0em;
+			background: #222222 url(../images/banner2.jpg) no-repeat;
+			background-size: cover;
+		}
+
+		.wrapper.style1-COM {
 			padding: 0em;
 			background: #222222 url(../images/banner2.jpg) no-repeat;
 			background-size: cover;
@@ -605,6 +625,24 @@
 		.wrapper.style4 {
 			background: white;
 		}
+			.wrapper.style4 p {
+				text-align: left;
+			}
+
+			.wrapper.style4 hr {
+				color: #725744;
+				border-top: solid 1px;
+			}
+
+			.wrapper.style4 .FWA-icons {
+				width: 6em;
+				margin-bottom: 1em;
+				margin-top: -2em;
+			}
+
+			.wrapper.style4 .row {
+				text-align: center;
+			}
 
 		.wrapper.style5 {
 			background: #f2f2f2;
