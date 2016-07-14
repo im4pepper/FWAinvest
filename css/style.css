@@ -265,6 +265,14 @@
 	  			background-image: url('../images/bank-green.png');
 			}
 
+		.community-icon {
+			width: 15em;
+			padding: 2em;
+			display: inline-block;
+			border: none;
+			margin: 0 auto 0 auto;
+		}
+
 /* Icon */
 
 	.icon {
@@ -528,7 +536,19 @@
 			background-size: cover;
 		}
 
+		.wrapper.style1-firm {
+			padding: 0em;
+			background: #222222 url(../images/bannerX.jpg) no-repeat;
+			background-size: cover;
+		}
+
 		.wrapper.style1-PS {
+			padding: 0em;
+			background: #222222 url(../images/banner2.jpg) no-repeat;
+			background-size: cover;
+		}
+
+		.wrapper.style1-COM {
 			padding: 0em;
 			background: #222222 url(../images/banner2.jpg) no-repeat;
 			background-size: cover;
@@ -605,6 +625,24 @@
 		.wrapper.style4 {
 			background: white;
 		}
+			.wrapper.style4 p {
+				text-align: left;
+			}
+
+			.wrapper.style4 hr {
+				color: #725744;
+				border-top: solid 1px;
+			}
+
+			.wrapper.style4 .FWA-icons {
+				width: 6em;
+				margin-bottom: 1em;
+				margin-top: -2em;
+			}
+
+			.wrapper.style4 .row {
+				text-align: center;
+			}
 
 		.wrapper.style5 {
 			background: #f2f2f2;
@@ -641,6 +679,25 @@
 					display: block;
 					margin: 0 auto 1.5em auto;
 					width: 8em;
+				}
+
+		.wrapper.style6 {
+			background: #f2f2f2;
+			text-align: center;
+			color: white;
+			margin: 0 auto 0 auto;
+		}
+
+			.wrapper.style6 h2, h3, span, p {
+				color: #725744;
+			}
+
+				.wrapper.style6 span {
+					margin-bottom: 1em;
+				}
+
+				.wrapper.style6 h3 {
+					font-size: 1em;
 				}
 
 /* Header */
@@ -790,6 +847,38 @@
 			padding: 1em 0em;
 		}
 
+		#banner-home {
+		padding: 10em 0em 6em 0em;
+		text-align: center;
+		text-transform: uppercase;
+		color: white;
+	}
+
+		#banner-home .container {
+			padding: 0em 8em;
+		}
+
+		#banner-home h2 {
+			display: inline-block;
+			padding: 0.8em 0.50em;
+			/*background: #82b440;*/
+			font-size: 2.3em;
+			font-weight: 400;
+			text-shadow: 0px 0px 7px #444444;
+		}
+
+		#banner-home span, #banner-home p {
+			display: block;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.6em;
+			font-weight: 300;
+		}
+
+		#banner-home span {
+			padding: 1em 0em;
+		}
+
 /* Main */
 
 	#main {
@@ -867,6 +956,22 @@
 			text-decoration: none;
 			color: inherit;
 		}
+
+	.vids {
+		padding: 1em;
+		display: inline-block;
+	}
+
+	.my-vid {
+		font-size: 1.1em;
+		padding-bottom: 1em;
+	}
+
+	.vid {
+		width: 700px;
+		border: 1px solid;
+		border-color: #725744;
+	}
 
 /* Extra */
 

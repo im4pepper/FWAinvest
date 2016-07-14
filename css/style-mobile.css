@@ -41,3 +41,13 @@
 	#main #sidebar .major h2 {
 		font-size: 1.6em;
 	}
+
+/* Banner */
+
+	#banner, #banner-home {
+		padding: 3em 0em 2em 0em;
+	}
+
+	.vid {
+		width: 350px;
+	}
